@@ -1,7 +1,7 @@
-/* This file is auto generated, version 0 */
+/* This file is auto generated, version 1 */
 /* SMP PREEMPT */
 #define UTS_MACHINE "aarch64"
-#define UTS_VERSION "#0 SMP PREEMPT Sun Dec 17 20:36:20 JST 2023"
-#define LINUX_COMPILE_BY "root"
-#define LINUX_COMPILE_HOST "Ikky"
-#define LINUX_COMPILER "clang version 10.0.0-4ubuntu1, LLD 10.0.0"
+#define UTS_VERSION "#1 SMP PREEMPT Tue Dec 26 08:46:06 JST 2023"
+#define LINUX_COMPILE_BY "IkkyMomo"
+#define LINUX_COMPILE_HOST "momochikky"
+#define LINUX_COMPILER "Android clang version 18.0.0, LLD 18.0.0"

@@ -130,6 +130,7 @@ deps_config := \
 	drivers/firmware/google/Kconfig \
 	drivers/firmware/broadcom/Kconfig \
 	drivers/firmware/Kconfig \
+	drivers/kernelsu/Kconfig \
 	techpack/data/drivers/rmnet/shs/Kconfig \
 	techpack/data/drivers/rmnet/perf/Kconfig \
 	techpack/data/drivers/rmnet/Kconfig \
@@ -1266,7 +1267,7 @@ deps_config := \
 include/config/auto.conf: \
 	$(deps_config)
 
-ifneq "$(KERNELVERSION)" "4.14.329"
+ifneq "$(KERNELVERSION)" "4.14.334"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(ARCH)" "arm64"
