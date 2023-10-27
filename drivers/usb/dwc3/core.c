@@ -1484,8 +1484,13 @@ static int dwc3_probe(struct platform_device *pdev)
 	dwc->index = count;
 	count++;
 
+<<<<<<< HEAD
 	pm_runtime_allow(dev);
 	dwc3_debugfs_init(dwc);
+=======
+	dma_set_max_seg_size(dev, UINT_MAX);
+
+>>>>>>> 7dfe8f6ecf6c4... usb: dwc3: set the dma max_seg_size
 	return 0;
 
 err3:
